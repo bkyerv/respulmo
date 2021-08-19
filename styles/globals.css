@@ -5,8 +5,9 @@
 }
 
 body {
-  color: var(--off-white);
-  background-color: var(--dark);
+  color: var(--active-blue);
+  background-color: var(--bg-pastel);
+  font: "Roboto";
 }
 
 h1 {

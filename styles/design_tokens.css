@@ -1,7 +1,9 @@
 :root {
-  --green: #3fe79e;
-  --dark: #0f0235;
-  --off-white: #f5f5f3;
+  --brand-yellow: #ffe400;
+  --active-yellow: #e9d100;
+  --bg-paster: #fffeca;
+  --html-blue: #00f;
+  --active-blue: #0005be;
 
   --space-sm: 0.5rem;
   --space-md: 1rem;

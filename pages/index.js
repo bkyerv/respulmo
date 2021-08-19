@@ -2,9 +2,8 @@ import Main from "../components/Main";
 
 export default function Start() {
   return (
-    <div className="lockup">
+    <div className="lockup section hero">
       <Main />
-      hellow rowld
     </div>
   );
 }
