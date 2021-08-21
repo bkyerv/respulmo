@@ -7,12 +7,13 @@
 body {
   color: var(--active-blue);
   background-color: var(--bg-pastel);
-  font: "Roboto";
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
-  color: var(--green);
+  color: var(--html-blue);
   font-size: var(--font-size-lg);
+  position: relative;
 }
 
 p {

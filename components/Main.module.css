@@ -2,6 +2,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1ch solid var(--active-blue);
+  border: 1ch solid var(--html-blue);
   padding: 3rem 1rem;
+}
+
+.typewriter::before,
+.typewriter::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.typewriter::before {
+  background: var(--bg-pastel);
+  animation: typewriter 2s steps(22) 500ms forwards;
+}
+
+.typewriter::after {
+  width: 0.125em;
+  background: var(--html-blue);
+  animation: typewriter 2s steps(22) 500ms forwards,
+    blink 500ms steps(22) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
 }
