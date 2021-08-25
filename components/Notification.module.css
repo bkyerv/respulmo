@@ -18,7 +18,12 @@
 }
 
 .New {
-  background: linear-gradient(90deg, #ed6292 25%, #ed5760 87.5%);
+  background: linear-gradient(
+    90deg,
+    var(--highlight-magenta) 30%,
+    var(--violet-light) 90%,
+    var(--cyan-light) 99%
+  );
   border-radius: 5px;
   color: #fff;
   padding: 1px 8px;
@@ -30,9 +35,4 @@
   display: inline-flex;
   margin-right: 5px;
   text-transform: uppercase;
-}
-
-.Br {
-  display: block;
-  margin-bottom: 10px;
 }

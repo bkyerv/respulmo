@@ -1,14 +1,5 @@
 .container {
-  max-width: 80ch;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.list {
-  display: flex;
-  align-items: center;
-
-  flex-direction: column;
+  padding: 0 2rem;
 }
 
 .btn {
@@ -25,6 +16,17 @@
 
 .highlight {
   font-weight: bold;
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
+  margin: 2rem 0;
+  color: var(--highlight-magenta);
+}
+
+.header {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.br {
+  display: block;
+  margin-bottom: 10px;
 }

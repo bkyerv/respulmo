@@ -18,8 +18,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={style.ListItem}>
-            <Link href="/webinars">
-              <a className={style.NavLink}>Вебинары</a>
+            <Link href="/webinarDetails">
+              <a className={style.NavLink}>Вебинар</a>
             </Link>
           </li>
         </ul>
