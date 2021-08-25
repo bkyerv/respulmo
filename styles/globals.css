@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,8 +14,7 @@ body {
 
 h1 {
   color: var(--html-blue);
-  font-size: var(--font-size-lg);
-  position: relative;
+  /*font-size: clamp(1rem, 3vw + 1rem, 4rem);*/
 }
 
 p {
@@ -27,13 +28,21 @@ section {
 }
 
 :focus {
-  outline: 0.15rem dashed var(--off-white);
+  outline: 0.1rem dashed var(--html-blue);
   outline-offset: 0.25rem;
 }
-main:focus {
-  outline: none;
-}
+/*main:focus {*/
+/*outline: none;*/
+/*}*/
 
 img {
   max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

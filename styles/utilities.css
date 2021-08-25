@@ -1,14 +1,30 @@
-.lockup {
-  max-width: 90ch;
+.container {
+  max-width: 80ch;
   margin: 0 auto;
+  text-align: center;
 }
 
-.section {
-  height: 100vh;
-}
-
-.hero {
+.list {
   display: flex;
   align-items: center;
-  justify-content: center;
+
+  flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  background: var(--bg-pastel);
+  border: 1px solid var(--html-blue);
+  border-radius: 10px;
+  color: var(--html-blue);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.highlight {
+  font-weight: bold;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
 }
