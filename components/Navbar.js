@@ -13,7 +13,7 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={style.ListItem}>
-            <Link href="/materials">
+            <Link href="/blog">
               <a className={style.NavLink}>Материалы</a>
             </Link>
           </li>

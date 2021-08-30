@@ -1,0 +1,15 @@
+.Card {
+  margin: 1rem 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Title {
+  font-weight: bold;
+}
+
+.Date {
+  color: var(--accents-3);
+}
