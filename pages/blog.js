@@ -1,31 +1,39 @@
 import Link from "next/link";
 
-import { getSortedPostsData } from "../lib/posts";
-import Article from "../components/Article";
+import { getAllPosts } from "../lib/api";
+import styles from "../styles/Blog.module.css";
 
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+export default function BlogList({ posts }) {
+  function renderBlogData(title, date) {
+    return (
+      <div className={styles.List}>
+        <p className={styles.Title}>{title}</p>
+        <p className={styles.Date}>{date}</p>
+      </div>
+    );
+  }
 
-  return {
-    props: {
-      allPostsData,
-    },
-  };
-}
-
-export default function Material({ allPostsData }) {
   return (
-    <div>
+    <div className="container">
       <h3 className="header">Полезные материалы</h3>
-      {allPostsData.map((p) => (
-        <div key={p.id}>
-          <Link href={`/${p.id}`}>
-            <a>
-              <Article id={p.id} title={p.title} date={p.date} />
-            </a>
+
+      {posts.map((p) => (
+        <div key={p.slug}>
+          <Link href={`/posts/${p.slug}`}>
+            <a>{renderBlogData(p.title, p.date)}</a>
           </Link>
         </div>
       ))}
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const posts = getAllPosts(["title", "date", "slug"]);
+
+  return {
+    props: {
+      posts,
+    },
+  };
 }

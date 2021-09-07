@@ -13,11 +13,20 @@ body {
 }
 
 h1 {
-  color: var(--success-dark);
-  /*font-size: clamp(1rem, 3vw + 1rem, 4rem);*/
-  text-shadow: 0.15rem 0.15rem 0 var(--accents-2),
-    0.11rem 0.11rem 0 var(--success-lighter), 0.08rem 0.08rem 0 var(--violet),
-    0.14rem 0.14rem 0 var(--cyan);
+  text-align: center;
+  color: var(--highlight-magenta);
+  font-size: clamp(1rem, 3vw + 1.5rem, 9rem);
+  text-shadow: 0.15rem 0.15rem 0 var(--cyan),
+    0.11rem 0.11rem 0 var(--highlight-magenta),
+    0.08rem 0.08rem 0 var(--violet-dark),
+    0.14rem 0.14rem 0 var(--highlight-pink);
+  margin-top: 2ch;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
 }
 
 p {
@@ -31,7 +40,7 @@ section {
 }
 
 :focus {
-  outline: 0.1rem dashed var(--cyan);
+  outline: 0.3rem dashed var(--highlight-magenta);
   outline-offset: 0.25rem;
 }
 /*main:focus {*/

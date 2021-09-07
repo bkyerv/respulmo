@@ -1,9 +1,9 @@
-import Details from "../components/Details";
+import WebinarDetails from "../components/WebinarDetails";
 
-export default function webinarDetails() {
+export default function webinarWebinarDetails() {
   return (
     <div className="container">
-      <Details />
+      <WebinarDetails />
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.Post {
+  padding: 1ch 2ch;
+}
+
+@media (min-width: 500px) {
+  .Post {
+    margin: 1ch 4ch;
+  }
+}
+
+.PostTitle {
+  margin: 1rem 0;
+  color: var(--accents-5);
+}
+
+.PostBody {
+  margin: 1rem 0;
+  color: var(--accents-7);
+}

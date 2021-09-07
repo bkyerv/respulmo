@@ -1,0 +1,12 @@
+.List {
+  margin: 1ch 3ch;
+}
+
+.Title {
+  font-weight: bold;
+}
+
+.Date {
+  font-size: 0.875rem;
+  color: var(--accents-5);
+}

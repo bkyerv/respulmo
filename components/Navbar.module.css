@@ -1,21 +1,27 @@
 .Nav {
-  background: var(--highlight-magenta) 0.6;
-
-  padding: 1rem 2rem;
   display: flex;
-  gap: 1ch;
-  justify-content: flex-end;
+  justify-content: space-between;
+  margin: 3ch auto;
+  padding: 3ch 1ch;
+  width: min(1000px, 90%);
+  border-bottom: 1px solid var(--success-dark);
+}
+
+@media (min-width: 500px) {
+  .Nav {
+    justify-content: space-around;
+  }
 }
 
 .ListItem {
   margin: 0;
   text-align: center;
-  max-width: 10ch;
+  color: var(--success-dark);
 }
 
 .NavLink {
   margin: 0;
-  font-size: 0.875rem;
+  font-size: clamp(1rem, 2vw+2rem, 2ch);
+  font-weight: bold;
   line-height: 1rem;
-  color: var(--html-blue);
 }

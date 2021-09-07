@@ -5,8 +5,8 @@ export default function Speaker({ spkr }) {
   const { pic, name, creds } = spkr;
   return (
     <div className={style.Speaker}>
-      <div className={style.ProfilePic}>
-        <Image src={pic} alt="profile picture" />
+      <div className={style.Img}>
+        <Image src={pic} alt="profile picture" className={style.ProfilePic} />
       </div>
       <div className={style.Info}>
         <div className={style.Name}>

@@ -1,5 +1,15 @@
 .container {
-  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: min(1200px, 90%);
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btn {
@@ -16,8 +26,7 @@
 
 .highlight {
   font-weight: bold;
-  margin: 2rem 0;
-  color: var(--highlight-magenta);
+  color: var(--success-dark);
 }
 
 .header {
@@ -29,4 +38,14 @@
 .br {
   display: block;
   margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+  .br {
+    display: none;
+  }
+}
+
+.grey {
+  color: var(--accents-5);
 }

@@ -1,20 +1,25 @@
 .Notification {
   display: inline-flex;
-  margin-top: 20px;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 20px 0;
+  padding: 5px 10px 10px;
+  text-align: left;
   background: var(--accents-1);
   border: 2px solid var(--accents-2);
   border-radius: 8px;
-  padding: 5px 10px 10px;
-  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .Anchor {
   text-decoration: none;
   color: inherit;
   font-size: 0.875rem;
+  line-height: 1.5rem;
   text-align: left;
+}
+
+@media (min-width: 500px) {
+  .Anchor {
+  }
 }
 
 .New {

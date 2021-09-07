@@ -1,5 +1,5 @@
 import Speaker from "./Speaker";
-import style from "./Details.module.css";
+import style from "./WebinarDetails.module.css";
 import spkrs from "../speakers/speakers";
 
 export default function Details() {
@@ -18,9 +18,12 @@ export default function Details() {
       <div className="header">
         <p className={style.Subject}>Спикеры</p>
       </div>
-      {spkrs.map((s) => (
-        <Speaker key={s.name} spkr={s} />
-      ))}
+
+      <div className={style.List}>
+        {spkrs.map((s) => (
+          <Speaker key={s.name} spkr={s} />
+        ))}
+      </div>
     </div>
   );
 }

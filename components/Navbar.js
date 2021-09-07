@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <div className="lockup">
+    <div className="container">
       <nav>
         <ul className={style.Nav}>
           <li className={style.ListItem}>
@@ -14,7 +14,7 @@ export default function Navbar() {
           </li>
           <li className={style.ListItem}>
             <Link href="/blog">
-              <a className={style.NavLink}>Материалы</a>
+              <a className={style.NavLink}>Блог</a>
             </Link>
           </li>
           <li className={style.ListItem}>
