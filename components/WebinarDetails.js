@@ -8,7 +8,7 @@ export default function Details() {
       <p className={style.DT}>
         14-15-16 сентября 2021
         <br />
-        Время: -------
+        Время: 17:00 по времени Алматы
       </p>
       <p className="header">
         <span className={style.Subject}> Тема конференции</span>
