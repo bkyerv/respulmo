@@ -14,7 +14,7 @@ export default function Navbar() {
           </li>
           <li className={style.ListItem}>
             <Link href="/blog">
-              <a className={style.NavLink}>Блог</a>
+              <a className={style.NavLink}>Статьи</a>
             </Link>
           </li>
           <li className={style.ListItem}>

@@ -32,17 +32,17 @@ export async function getStaticProps({ params }) {
     props: {
       post: {
         ...post,
-        content,
+        content: post.content,
       },
     },
   };
 }
 
 export default function BlogPost({ post }) {
-  const { title, content } = post;
+  const { content } = post;
   return (
     <div className="container">
-      <Post title={title} content={content} />
+      <Post content={content} />
     </div>
   );
 }

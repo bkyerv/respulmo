@@ -5,7 +5,6 @@ import nenash from "../public/nen.jpg";
 import nurp from "../public/nurp.jpg";
 import pop from "../public/pop.png";
 import ice from "../public/ice.jpg";
-import zyk from "../public/zyk.jpg";
 import avd from "../public/avd.jpg";
 import kvz from "../public/kvz.jpg";
 import pak from "../public/pak.png";
@@ -25,13 +24,6 @@ const spkrs = [
     name: "Ненашева Наталья Михайловна",
     creds:
       "д.м.н., профессор, заведующая кафедрой аллергологии и иммунологии ФГБОУ ДПО РМАНПО Минздрава России, г. Москва",
-  },
-  {
-    id: 8,
-    pic: zyk,
-    name: "Зыков Кирилл Алексеевич",
-    creds:
-      "д.м.н., заместитель директора по научной и инновационной работе ФГБУ «НИИ пульмонологии» ФМБА России, заведующий кафедрой факультетской терапии и проф. болезней МГМСУ им. А.И. Евдокимова Минздрава России ",
   },
   {
     id: 7,

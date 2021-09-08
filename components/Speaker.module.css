@@ -7,10 +7,13 @@
 
 .Img {
   padding: 0 1ch;
+  height: 35%;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .ProfilePic {
-  height: 10px;
+  border-radius: 10px;
 }
 
 .Info {
