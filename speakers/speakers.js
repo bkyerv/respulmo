@@ -1,5 +1,5 @@
 import sattar from "../public/ysm.jpg";
-import vinnikov from "../public/vin.jpg";
+import vinnikov from "/public/vin.jpg";
 import arch from "../public/arch.jpg";
 import nenash from "../public/nen.jpg";
 import nurp from "../public/nurp.jpg";

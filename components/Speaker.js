@@ -1,6 +1,5 @@
-import Image from "next/image";
 import style from "./Speaker.module.css";
-
+import Image from "next/image";
 export default function Speaker({ spkr }) {
   const { pic, name, creds } = spkr;
   return (
