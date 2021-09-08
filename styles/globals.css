@@ -8,19 +8,14 @@
 
 body {
   color: var(--accents-8);
-  background-color: var(--bg-pastel);
   font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
   text-align: center;
-  color: var(--highlight-magenta);
+  color: var(--success-dark);
   font-size: clamp(1rem, 3vw + 1.5rem, 9rem);
-  text-shadow: 0.15rem 0.15rem 0 var(--cyan),
-    0.11rem 0.11rem 0 var(--highlight-magenta),
-    0.08rem 0.08rem 0 var(--violet-dark),
-    0.14rem 0.14rem 0 var(--highlight-pink);
-  margin-top: 2ch;
+  text-shadow: 0.1rem 0.1rem var(--cyan);
 }
 
 a,

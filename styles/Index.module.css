@@ -41,3 +41,30 @@
   margin-right: 5px;
   text-transform: uppercase;
 }
+
+.HeroImg {
+  /*border: 1px solid red;*/
+  padding: 10rem;
+  background-image: url("../public/hero/hero.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 500px) {
+  .HeroImg {
+    padding: 13rem;
+  }
+}
+
+.Title {
+  /*border: 1px solid red;*/
+}
+
+.Mission {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

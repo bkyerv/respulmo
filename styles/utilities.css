@@ -1,15 +1,33 @@
+.blob {
+  position: relative;
+}
+.blob::after {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  content: "";
+  width: 100px;
+  height: 100px;
+  top: -10px;
+  left: 0;
+  background-image: url("../public/bcg/blob2.png");
+  background-size: cover;
+  opacity: 0.4;
+}
+@media (min-width: 500px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: min(1200px, 90%);
   margin: 0 auto;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .btn {
