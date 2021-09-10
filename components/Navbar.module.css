@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   padding: 2ch 1ch;
-  margin: 2rem 0;
   border-bottom: 1px solid var(--success-dark);
 }
 
 @media (min-width: 500px) {
   .Nav {
     justify-content: space-around;
+    margin: 2rem 0;
   }
 }
 
