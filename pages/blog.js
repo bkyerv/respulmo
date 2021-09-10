@@ -14,7 +14,7 @@ export default function BlogList({ posts }) {
   }
 
   return (
-    <div className="container">
+    <div>
       <h3 className="header">Полезные материалы</h3>
 
       {posts.map((p) => (

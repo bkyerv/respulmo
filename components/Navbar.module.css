@@ -1,9 +1,8 @@
 .Nav {
   display: flex;
   justify-content: space-between;
-  margin: 3ch auto;
-  padding: 3ch 1ch;
-  width: min(1000px, 90%);
+  padding: 2ch 1ch;
+  margin: 2rem 0;
   border-bottom: 1px solid var(--success-dark);
 }
 
@@ -14,13 +13,10 @@
 }
 
 .ListItem {
-  margin: 0;
-  text-align: center;
   color: var(--success-dark);
 }
 
 .NavLink {
-  margin: 0;
   font-size: clamp(1rem, 2vw+2rem, 2ch);
   font-weight: bold;
   line-height: 1rem;

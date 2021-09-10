@@ -6,9 +6,18 @@
   padding: 0;
 }
 
+html {
+}
+
 body {
   color: var(--accents-8);
   font-family: "Source Sans Pro", sans-serif;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {

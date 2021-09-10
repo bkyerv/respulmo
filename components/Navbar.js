@@ -1,10 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import style from "./Navbar.module.css";
+import logo from "../public/logo/символ.jpg";
 
 export default function Navbar() {
   return (
-    <div className="container">
+    <div className="flex">
+      <Link href="/">
+        <Image src={logo} width="60" height="60" style={{ display: "block" }} />
+      </Link>
       <nav>
         <ul className={style.Nav}>
           <li className={style.ListItem}>

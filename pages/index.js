@@ -20,7 +20,7 @@ export default function Start() {
     );
   }
   return (
-    <div className="container">
+    <div>
       {renderNotification()}
       <div className="flex">
         <div className={styles.Title}>

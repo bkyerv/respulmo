@@ -21,20 +21,32 @@
   align-items: center;
 }
 
+.flex > *:not(:first-child) {
+  flex: 1;
+  width: 100%;
+  margin-top: 5px;
+}
+
 @media (min-width: 700px) {
   .flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+  }
+  .flex > *:not(:first-child) {
+    margin-left: 3rem;
   }
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   width: min(1200px, 90%);
   margin: 0 auto;
+  padding: 1ch;
+  min-height: 100vh;
 }
 
 .btn {
