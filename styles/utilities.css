@@ -76,6 +76,10 @@
   margin-bottom: 10px;
 }
 
+.br-xl {
+  margin-bottom: 15rem;
+}
+
 @media (min-width: 500px) {
   .br {
     display: none;

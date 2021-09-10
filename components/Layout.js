@@ -6,6 +6,7 @@ export default function Layout({ children }) {
     <div className="container">
       <Navbar />
       <main>{children}</main>
+      <div className="br-xl" />
       <Footer />
     </div>
   );

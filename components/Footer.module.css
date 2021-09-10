@@ -1,7 +1,7 @@
 .Footer {
   margin-top: auto;
   display: flex;
-  padding: 1ch 0;
+  padding: 1ch 1ch;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
