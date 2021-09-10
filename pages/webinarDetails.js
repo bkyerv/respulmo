@@ -2,7 +2,7 @@ import WebinarDetails from "../components/WebinarDetails";
 
 export default function webinarWebinarDetails() {
   return (
-    <div className="container">
+    <div>
       <WebinarDetails />
     </div>
   );

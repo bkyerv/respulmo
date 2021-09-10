@@ -44,7 +44,7 @@
   justify-content: flex-start;
   width: min(1200px, 90%);
   margin: 0 auto;
-  padding: 2rem 2ch;
+  padding: 2rem 1ch;
   min-height: 100vh;
 }
 
