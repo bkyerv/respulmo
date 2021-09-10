@@ -41,7 +41,7 @@ export async function getStaticProps({ params }) {
 export default function BlogPost({ post }) {
   const { content } = post;
   return (
-    <div className="container">
+    <div>
       <Post content={content} />
     </div>
   );
