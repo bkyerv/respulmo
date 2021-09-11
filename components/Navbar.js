@@ -3,12 +3,16 @@ import Image from "next/image";
 
 import style from "./Navbar.module.css";
 import logo from "../public/logo/символ.jpg";
+import logo2 from "../public/logo/символ2.jpg";
 
 export default function Navbar() {
   return (
     <div className="flex">
       <Link href="/">
-        <Image src={logo} width="60" height="60" style={{ display: "block" }} />
+        <img src={logo.src} className={style.Logo_sm}/>
+      </Link>
+      <Link href="/">
+        <img src={logo2.src} className={style.Logo}/>
       </Link>
       <nav>
         <ul className={style.Nav}>

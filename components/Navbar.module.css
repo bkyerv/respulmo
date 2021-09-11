@@ -21,3 +21,29 @@
   font-weight: bold;
   line-height: 1rem;
 }
+
+.Logo {
+
+		height: 100px;
+		width: max(400px, 100%);
+}
+
+@media(min-width: 600px){
+	.Logo{
+		display:none;
+}
+
+}
+
+
+.Logo_sm {
+	display:none;
+}
+
+@media(min-width: 600px){
+	.Logo_sm{
+		height: 100px;
+		width: 100;
+		display:block;
+	}
+}

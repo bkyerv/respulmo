@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Speaker from "./Speaker";
 import style from "./WebinarDetails.module.css";
 import spkrs from "../speakers/speakers";
@@ -15,6 +16,9 @@ export default function Details() {
         <br />
         <b>Обструктивные патологии органов дыхания в эпоху пандемии Covid-19</b>
       </p>
+	  <Link href='../public/doc.pdf'>
+	  Programma
+	  </Link>
       <div className="header">
         <p className={style.Subject}>Спикеры</p>
       </div>
