@@ -26,11 +26,6 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={style.ListItem}>
-            <Link href="/qanda">
-              <a className={style.NavLink}>Вопросы и ответы</a>
-            </Link>
-          </li>
-          <li className={style.ListItem}>
             <Link href="/archive">
               <a className={style.NavLink}>Архив</a>
             </Link>
