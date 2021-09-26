@@ -1,36 +1,63 @@
 .DT {
-  border-radius: 10px;
-  background: linear-gradient(
-    45deg,
-    var(--cyan) 5%,
-    var(--success-dark) 30%,
-    var(--violet-light) 80%
-  );
-  color: var(--accents-1);
-  padding: 0.5rem;
-  margin: 2rem 0 0;
-  text-align: center;
-  font-weight: bold;
-  line-height: 2rem;
+        border-radius: 10px;
+        background: linear-gradient(45deg,
+                        var(--cyan) 5%,
+                        var(--success-dark) 30%,
+                        var(--violet-light) 80%);
+        color: var(--accents-1);
+        padding: 0.5rem;
+        margin: 2rem 0 0;
+        text-align: center;
+        font-weight: bold;
+        line-height: 2rem;
 }
 
 .Subject {
-  color: var(--accents-3);
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 1rem;
+        color: var(--accents-3);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 1rem;
 }
 
 @media (min-width: 600px) {
-  .List {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+        .List {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+        }
 }
+
 @media (min-width: 1000px) {
-  .List {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
+        .List {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+        }
+}
+
+.Buttons {
+        margin: 2rem 1rem;
+        text-align: center;
+}
+
+.ActionCall {
+        margin-left: auto;
+        position: relative;
+        padding: 1rem;
+        background-color: var(--highlight-magenta);
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.ActionCall:visited {
+        color: white;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+.One {
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }

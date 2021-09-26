@@ -8,12 +8,12 @@ export default function Footer() {
     <div className={styles.Footer}>
       <div className={styles.LeftSide}>
         <Image src={logo} width="50" height="50" />
-        <strong>Городское респираторное общество</strong>
-      </div>
+        <strong> Городское респираторное общество </strong>{" "}
+      </div>{" "}
       <div />
       <div className={styles.RightSide}>
-        Адрес: город Алматы, Ауэзовский район, улица Сулейменова, 24А, кв 61{" "}
-      </div>
+        Адрес: город Алматы, Ауэзовский район, улица Сулейменова, 24 А, кв 61{" "}
+      </div>{" "}
     </div>
   );
 }

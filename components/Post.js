@@ -5,6 +5,7 @@ export default function Post({ content }) {
   return (
     <div className={styles.Post}>
       <Markdown>{content}</Markdown>
+  
     </div>
   );
 }

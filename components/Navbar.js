@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 import style from "./Navbar.module.css";
 import logo from "../public/logo/символ.jpg";
@@ -18,7 +17,7 @@ export default function Navbar() {
         <ul className={style.Nav}>
           <li className={style.ListItem}>
             <Link href="/">
-              <a className={style.NavLink}>О наc</a>
+              <a className={style.NavLink}>Главная</a>
             </Link>
           </li>
           <li className={style.ListItem}>
@@ -27,8 +26,13 @@ export default function Navbar() {
             </Link>
           </li>
           <li className={style.ListItem}>
-            <Link href="/webinarDetails">
-              <a className={style.NavLink}>Вебинар</a>
+            <Link href="/qanda">
+              <a className={style.NavLink}>Вопросы и ответы</a>
+            </Link>
+          </li>
+          <li className={style.ListItem}>
+            <Link href="/archive">
+              <a className={style.NavLink}>Архив</a>
             </Link>
           </li>
         </ul>
